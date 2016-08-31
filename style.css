@@ -1,0 +1,85 @@
+/*
+	Theme Name: North Child Theme
+	Theme URI: http://themeforest.net/user/fuelthemes
+	Description: <strong>A Premium theme for magazine, editor, community and more! WordPress Theme by <a href="http://www.themeforest.net/user/fuelthemes">fuelthemes</a></strong> – Update notifications available on Twitter and Themeforest <a href="http://twitter.com/anteksiler">Follow us on twitter</a> – <a href="http://themeforest.net/user/fuelthemes">Follow us on Themeforest</a>
+	Version: 1.0.0
+	Author: fuelthemes
+	Template: north-wp
+*/
+
+@import url("../north-wp/style.css");
+
+/*
+	Theme Overrides
+*/
+
+.prdctfltr_filter_title {
+	background-color:#F6F6F6 !important;
+	}
+.label {
+  background-color: transparent !important;
+}
+
+/* 
+	Delivery Calculator 
+*/
+
+.hidden {
+  display: none;
+}
+
+.input--postcode {
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.delivery-calculator {
+    background-color: #f4f4f4;
+    padding: 25px 0px;
+    margin: 25px 0px;
+}
+
+.delivery-calculator .button {
+    width: 100%;
+}
+
+.delivery-calculator h4 {
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.delivery-calculator p {
+  text-align: center;
+}
+
+.results {
+    padding: 25px 0px;
+}
+
+.delivery-calculator .results h5 {
+    margin-bottom: 0px !important;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.large-body-text {
+    font-size: 18px !important;
+}
+
+.paragraph--padded {
+    margin: 20px 0px;
+}
+
+.warning-border {
+    border: 1px solid red !important;
+}
+
+.warning-text {
+    color: red !important;
+}
