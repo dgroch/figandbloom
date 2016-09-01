@@ -20,6 +20,20 @@
   background-color: transparent !important;
 }
 
+/*
+        Font Faces
+*/
+
+@font-face {
+  font-family: GothamBook;
+  src: url('assets/fonts/Gotham/GothamBook.woff');
+}
+
+@font-face {
+  font-family: Didot;
+  src: url('assets/fonts/Didot/Didot.woff');
+}
+
 /* 
 	Delivery Calculator 
 */
