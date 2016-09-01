@@ -2568,14 +2568,15 @@ if ( ! function_exists( 'ot_recognized_font_families' ) ) {
   function ot_recognized_font_families( $field_id = '' ) {
     
     $families = array(
-      'arial'     => 'Arial',
-      'georgia'   => 'Georgia',
-      'helvetica' => 'Helvetica',
-      'palatino'  => 'Palatino',
-      'tahoma'    => 'Tahoma',
-      'times'     => '"Times New Roman", sans-serif',
-      'trebuchet' => 'Trebuchet',
-      'verdana'   => 'Verdana'
+      'GothamBook'  =>  'Gotham Book',
+      'arial'       =>  'Arial',
+      'georgia'     =>  'Georgia',
+      'helvetica'   =>  'Helvetica',
+      'palatino'    =>  'Palatino',
+      'tahoma'      =>  'Tahoma',
+      'times'       =>  '"Times New Roman", sans-serif',
+      'trebuchet'   =>  'Trebuchet',
+      'verdana'     =>  'Verdana'
     );
     
     return apply_filters( 'ot_recognized_font_families', $families, $field_id );
