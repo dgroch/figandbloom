@@ -2,9 +2,8 @@
 
 function add_this_script_footer(){ ?>
 
-
-<!-- Postcode Validator -->
 <script>
+// POSTCODE VALIDATOR
 var postcodes = [3000, 3000, 3001, 3002, 3003, 3003, 3005, 3006, 3008, 3010, 3011, 3012, 3013, 3015, 3016, 3018, 3019, 3020, 3025, 3026, 3027, 3028, 3031, 3032, 3033, 3034, 3036, 3039, 3040, 3041, 3042, 3043, 3044, 3045, 3046, 3047, 3048, 3049, 3050, 3051, 3052, 3053, 3054, 3055, 3056, 3057, 3058, 3060, 3065, 3066, 3067, 3068, 3070, 3071, 3072, 3073, 3074, 3075, 3078, 3079, 3081, 3083, 3084, 3085, 3086, 3087, 3088, 3093, 3094, 3101, 3102, 3103, 3104, 3105, 3106, 3107, 3108, 3109, 3111, 3121, 3122, 3123, 3124, 3125, 3126, 3127, 3128, 3130, 3141, 3142, 3143, 3144, 3145, 3146, 3147, 3148, 3149, 3161, 3162, 3163, 3165, 3166, 3167, 3168, 3181, 3182, 3183, 3184, 3185, 3186, 3187, 3188, 3189, 3190, 3191, 3192, 3193, 3194, 3195];
 
 function clearPostcodeResults() {
@@ -45,11 +44,17 @@ jQuery('.button').click(function(){
     jQuery('.results').show();
     jQuery('.negative').show();
   }
-})
-</script>
+});
 
-<!-- Facebook Pixel Code -->
-<script>
+// INSPECTLET
+window.__insp = window.__insp || [];
+__insp.push(['wid', 1349684301]);
+(function() {
+function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
+})();
+
+// FACEBOOK PIXEL
 !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
 n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -57,24 +62,15 @@ t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 document,'script','https://connect.facebook.net/en_US/fbevents.js');
 
 fbq('init', '107885032879373');
-fbq('track', "PageView");</script>
+fbq('track', "PageView");
+
+</script>
+
 <noscript><img height="1" width="1" style="display:none"
 src="https://www.facebook.com/tr?id=107885032879373&ev=PageView&noscript=1"
 /></noscript>
-<!-- End Facebook Pixel Code -->
 
-<!-- Begin Inspectlet Embed Code -->
-<script type="text/javascript" id="inspectletjs">
-window.__insp = window.__insp || [];
-__insp.push(['wid', 1349684301]);
-(function() {
-function ldinsp(){if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
-setTimeout(ldinsp, 500); document.readyState != "complete" ? (window.attachEvent ? window.attachEvent('onload', ldinsp) : window.addEventListener('load', ldinsp, false)) : ldinsp();
-})();
-</script>
-<!-- end Inspectlet code -->
 
-<!-- Begin Olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 f[z]=function(){
 (a.s=a.s||[]).push(arguments)};var a=f[z]._={
@@ -93,7 +89,6 @@ b[k]=o+'d.write("'+p().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'
 loader: "static.olark.com/jsclient/loader0.js",name:"olark",methods:["configure","extend","declare","identify"]});
 /* custom configuration goes here (www.olark.com/documentation) */
 olark.identify('7166-990-10-7176');/*]]>*/</script><noscript><a href="https://www.olark.com/site/7166-990-10-7176/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
-<!-- end olark code -->
 
 <?php } 
 
