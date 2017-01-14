@@ -98,7 +98,9 @@
     color: red !important;
 }
 
-@media screen and (min-width: 90.0625em) .xlarge-2 {
-  flex: 0 0 25%;
-	max-width: 25;
+@media screen and (min-width: 90.0625em) {
+  .xlarge-2 {
+    flex: 0 0 25%;
+    max-width: 25;
+	}
 }
